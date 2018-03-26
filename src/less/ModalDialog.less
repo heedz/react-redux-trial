@@ -1,0 +1,37 @@
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    color: #3771c8
+}
+
+.modal-dialog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    min-height: 90vh;
+}
+
+.modal-content {
+    min-width: 500px;
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+    border: 1px solid #777777;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 0px 0px rgb(255, 255, 255);
+            box-shadow: 0 0px 0px rgb(255, 255, 255);
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+         -o-transition:      -o-transform .3s ease-out;
+            transition:         transform .3s ease-out;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+         -o-transform: translate(0, 0);
+            transform: translate(0, 0);
+}

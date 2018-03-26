@@ -1,0 +1,53 @@
+@standard-blue: #3771c8;
+@dark-blue: #244a71;
+@pure-white: #fff;
+@button-height: 48px;
+@button-text-transform: uppercase;
+@modal-button-height: 36px;
+@modal-button-border-radius: 6px;
+
+.close {
+  color: #cccccc;
+  font-size: 21px;
+  :hover {
+    color: #808080;
+  }
+}
+
+.btn {
+  height: @button-height;
+  text-transform: @button-text-transform;
+}
+
+.btn-primary {
+  color: @pure-white;
+  background-color: @standard-blue;
+  border-color: @standard-blue;
+  :hover {
+    background-color: @dark-blue;
+    border-color: @dark-blue;
+  }
+}
+
+.modal-footer > .btn-primary {
+  color: @pure-white;
+  background-color: @standard-blue;
+  border-color: @standard-blue;
+  height: @modal-button-height;
+  border-radius: @modal-button-border-radius;
+  :hover {
+    background-color: @dark-blue;
+    border-color: @dark-blue;
+  }
+}
+
+.modal-footer > .btn-secondary {
+  color: @standard-blue;
+  background-color: @pure-white;
+  border-color: @pure-white;
+  height: @modal-button-height;
+  border-radius: @modal-button-border-radius;
+  :hover {
+    border-color: @standard-blue;
+  }
+}

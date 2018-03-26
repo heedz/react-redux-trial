@@ -1,0 +1,12 @@
+.navbar-inverse {
+  background-color: #3771c8;
+  border-color: #3771c8;
+  position: relative;
+}
+.navbar-inverse .navbar-brand {
+  font-size: 18px;
+  color: #fff;
+}
+.container {
+  width: 98%;
+}

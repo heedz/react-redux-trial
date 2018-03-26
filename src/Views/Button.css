@@ -1,0 +1,41 @@
+.close {
+  color: #cccccc;
+  font-size: 21px;
+}
+.close :hover {
+  color: #808080;
+}
+.btn {
+  height: 48px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #3771c8;
+  border-color: #3771c8;
+}
+.btn-primary :hover {
+  background-color: #244a71;
+  border-color: #244a71;
+}
+.modal-footer > .btn-primary {
+  color: #fff;
+  background-color: #3771c8;
+  border-color: #3771c8;
+  height: 36px;
+  border-radius: 6px;
+}
+.modal-footer > .btn-primary :hover {
+  background-color: #244a71;
+  border-color: #244a71;
+}
+.modal-footer > .btn-secondary {
+  color: #3771c8;
+  background-color: #fff;
+  border-color: #fff;
+  height: 36px;
+  border-radius: 6px;
+}
+.modal-footer > .btn-secondary :hover {
+  border-color: #3771c8;
+}
